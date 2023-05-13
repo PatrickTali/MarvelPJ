@@ -1,0 +1,91 @@
+/* Nav Styles */
+.ct-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Target Main Image */
+.ct-nav img {
+    width: 25%;
+    max-width: 100%;
+    margin-left: 2vw;
+    
+
+}
+
+ul#horizontal-list {
+    min-width: 696px;
+    list-style: none;
+    padding-top: 20px;
+}
+
+ul#horizontal-list li,
+ul#horizontal-list a {
+    display: inline;
+    text-decoration: none;
+    padding: 0.5vw;
+    margin-right: 0.2vw;
+}
+
+/* End of Nav Styles */
+/* Hero/Header Portion */
+#header-text {
+    padding: 2vw;
+    background-image:linear-gradient(to right bottom, rgba(172, 30, 30, 0.7), rgba(142, 57, 153, 0.6));
+}
+
+.header-image {
+    width: 82%;
+    max-width: 100%;
+
+}
+
+/* Home page Styles */
+/* middle section */
+
+
+#middle-text {
+    text-align: center;
+    padding: 13vh;
+}
+
+#middle-text h2 {
+    padding: 1.5vw;
+}
+
+
+
+#features-section {
+    margin: 8vw;
+    background-image:linear-gradient(to right bottom, rgba(172, 30, 30, 0.97), rgba(142, 57, 153, 0.6));
+}
+
+
+
+
+
+
+
+
+/* profile sections */
+
+.hero-section{
+    height: 1000px;
+    background-image:linear-gradient(to right bottom, rgba(172, 30, 30, 0.7), rgba(142, 57, 153, 0.6)), url("");
+    background-size: cover;
+    background-position: 35% 50%;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+    clip-path:polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+    position: relative;
+}
+
+
+.header-text{
+    display:flex;
+    justify-content: center;
+    padding-top: 2%;
+    left: 20rem;
+    top: 10rem;
+    color: rgb(255, 255, 255);
+}
+
